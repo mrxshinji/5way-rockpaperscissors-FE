@@ -1,0 +1,59 @@
+.scoreBoard {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  gap: 5rem;
+}
+
+.choiceWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pick {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.emptyCircle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.resultWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.resultWrapper h2 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.resultWrapper button {
+  background-color: white;
+  color: var(--text);
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.resultWrapper button:hover {
+  filter: opacity(.5)
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "scissors",
+        "imgPath": "/static/icon-scissors.svg",
+        "color": "scissors"
+    },
+    {
+        "name": "paper",
+        "imgPath": "/static/icon-paper.svg",
+        "color": "paper"
+    },
+    {
+        "name": "rock",
+        "imgPath": "/static/icon-rock.svg",
+        "color": "rock"
+    },
+    {
+        "name": "lizard",
+        "imgPath": "/static/icon-lizard.svg",
+        "color": "lizard"
+    },
+    {
+        "name": "spock",
+        "imgPath": "/static/icon-spock.svg",
+        "color": "spock"
+    }
+]

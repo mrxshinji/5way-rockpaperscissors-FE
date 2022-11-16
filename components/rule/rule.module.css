@@ -1,0 +1,50 @@
+.ruleWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .ruleWrapper h1 {
+    font-size: 64px;
+    color: var(--text);
+  }
+  
+  .close {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .close span {
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    background-color: var(--text);
+  }
+  
+  .close span:first-child {
+    transform: rotate(45deg);
+  }
+  
+  .close span:last-child {
+    transform: rotate(-45deg);
+  }
+
+  @media screen and (min-width: 450px) {
+    .ruleWrapper {
+      width: 50vw;
+      height: 50vh;
+      top:25%;
+      left:25%;
+      border-radius: 20px;
+    }
+  }

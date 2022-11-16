@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 85vw;
+  border: 5px solid var(--header);
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.type h1 {
+  font-size: 17px;
+  line-height: 15px;
+}
+
+.score {
+  position: relative;
+  background-color: white;
+  height: 75px;
+  width: 75px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: .2rem;
+}
+
+.score p {
+  color: var(--scoreText);
+  font-size: 15px;
+}
+
+.score h2 {
+  color: var(--text);
+  font-size: 50px;
+  line-height: 50px;
+}
+
+
+@media screen and (min-width: 450px) {
+  .container {
+    width: 700px;
+  }
+}
